@@ -33,7 +33,7 @@ p.green::first-letter{
 
 }
 p.red::first-letter{
-    color:gold ;
+    color:black ;
     font-variant: small-caps;
     font-size: 100px;
 }
