@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: radial-gradient(circle at 50% 43.97%, #7fde99 0, #6cdb9b 25%, #55d89d 50%, #35d5a0 75%, #00d2a4 100%);
+}
+h1{
+    color: purple;
+    font-variant: small-caps;
+    font-size: 35px;
+}
+h2{
+    color: brown;
+}
+p{
+    
+    color: red;
+    font-variant: small-caps;
+}
+p.green::first-line{
+    color:green;
+    font-variant: small-capsc;
+}
+p::first-line{
+    color: blueviolet;
+    font-variant: small-caps;
+    font-size: 50px;
+}
+p.green::first-letter{
+    color:darkblue ;
+    font-variant: small-caps;
+    font-size: 100px;
+
+}
+p.red::first-letter{
+    color:gold ;
+    font-variant: small-caps;
+    font-size: 100px;
+}
+p.final::after{
+    content: "Se lo lleva la corriente";
+}
+p.final2::after{
+    content: "Dios lo ayuda";
+}
+p.final::first-line{
+    color:green;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+p.final2::first-line{
+    color:yellowgreen;
+    font-variant: small-caps;
+    font-size: 30px;
+}
+q::before {
+    content: "«";
+    color: blue;
+    font-size: 20px;
+  }
+q::after {
+    content: "»";
+    color: red;
+    font-size: 20px;
+}
+.brown{
+    text-align: center;
+    color: brown;
+}
